@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>Predicting Credit Card Default</h1>
+        <form action="http://127.0.0.1:5000/" method="post">
+            <p> Please enter income</p>
+            <p> <input type = "number" name = "income"> </p>
+            <p>Please enter age</p>
+            <p> <input type = "number" name = "age"> </p>
+            <p>Please input loan amount</p>
+            <p> <input type = "number" name = "loan"> </p>
+            <p> <input type = "submit"> </p>
+            
+        </form>
+        <p>Decision Tree: {{result1}}</p>
+        <p>Gradient Boost: {{result2}}</p>
+        <p>Linear Regression: {{result3}}</p>
+    </body>
+</html>
